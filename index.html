@@ -4,37 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio André Sartoreto</title>
+    <style>
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            body {
+                background-color: rgb(163, 231, 252);
+            }
+
+            h1 {
+                text-align: center;
+                font-family: fantasy;
+                font-variant: small-caps;
+            }
+
+            h2 {
+                font-size: 2em;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            }
+
+            h3 {
+                font-size: 1.5em
+            }
+
+            h4 {
+                font-size: 17px;
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: italic;
+            }
+
+            .indice {
+                font-size: 25px;
+                font-family:fantasy
+            }
+
+            .habilidades {
+                font-size: 20px;
+                font-style:italic;
+            }
+
+            .gits {
+                font-size: 20px;
+            }
+    </style>
 </head>
 <body>
     <h1 id="inicio">André Sartoreto</h1>
     <ul>
-        <li><a href="#foto-perfil">Foto</a></li>
-        <li><a href="#sobre-andre">Sobre</a></li>
-        <li><a href="#habilidades-andre">Habilidades</a></li>
-        <li><a href="#portfolio-andre">Portfólio</a></li>
+        <li class="indice"><a href="#foto-perfil">Foto</a></li>
+        <li class="indice"><a href="#sobre-andre">Sobre</a></li>
+        <li class="indice"><a href="#habilidades-andre">Habilidades</a></li>
+        <li class="indice"><a href="#portfolio-andre">Portfólio</a></li>
     </ul>
     <img id="foto-perfil" src="perfil2.jpeg" alt="Foto de André Sartoreto" width="400px">
     <h2 id="sobre-andre">Sobre</h2>
     <p>Brasileiro, natural de Belo Horizonte, Minas Gerais.</p>
     <h2 id="habilidades-andre">Habilidades:</h2>
     <ul>
-        <li><strong>HTML</strong></li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Excel</li>
-        <li>VBA</li>
+        <li class="habilidades"><strong>HTML</strong></li>
+        <li class="habilidades">CSS</li>
+        <li class="habilidades">JavaScript</li>
+        <li class="habilidades">Excel</li>
+        <li class="habilidades">VBA</li>
     </ul>
     <br>
     
     <h2 id="portfolio-andre">Portfólio</h2>
     <ul>
         <h3><a href="https://github.com/FIXSartoreto" target="_blank">GitHub</a></h3>
-        <li><a href="https://github.com/FIXSartoreto/MyShellScripts" target="_blank"><em>Shell Scripts</em></a></li>
-        <li><a><em>HTML</em></a></li>
-        <li><a><em>CSS</em></a></li>
-        <li><a><em>Projeto HTML/CSS</em></a></li>
+        <li class="gits"><a href="https://github.com/FIXSartoreto/MyShellScripts" target="_blank"><em>Shell Scripts</em></a></li>
+        <li class="gits"><a href="https://github.com/FIXSartoreto/HTML" target="_blank"><em>HTML/CSS</em></a></li>
+        <li class="gits"><a><em>Projeto HTML/CSS</em></a></li>
     </ul>
     <h4><a href="https://www.betrybe.com/" target="_blank">Conheça a Trybe!</a></h4>
-    <a href="#inicio">Voltar ao início</a>
+    <h4><a href="#inicio">Voltar ao início</a></h4>
 </body>
 </html>
